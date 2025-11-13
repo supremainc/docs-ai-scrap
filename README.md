@@ -1,10 +1,10 @@
-# WhaTap Docs 스크랩퍼
+# Docs 스크랩퍼
 
-파이썬 scarpy 프레임워크를 이용해 WhaTap Docs(<https://docs.whatap.io>) 페이지의 콘텐츠를 스크래핑합니다. Open AI의 ChatGPT를 학습시키기 위한 데이터를 구축합니다.
+파이썬 scarpy 프레임워크를 이용해 Docs(<https://docs.supremain.com>) 페이지의 콘텐츠를 스크래핑합니다. Open AI의 ChatGPT를 학습시키기 위한 데이터를 구축합니다.
 
 ## 주요 파일 구성
 
-* main.py: WhaTap Docs를 스크랩하는 주요 코드입니다.
+* main.py: Docs를 스크랩하는 주요 코드입니다.
 * store.py: 스크랩한 콘텐츠를 벡터 데이터에 업로드합니다. (supabase - whatap\_docs 네임스페이스)
 * .env: OpenAI 및 supabase 관련 api key 정보를 입력하세요.
   * OPENAI\_API\_KEY=""
