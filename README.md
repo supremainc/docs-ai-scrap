@@ -26,7 +26,7 @@ pip install scrapy
 * supabase
 * uuid
 
-## WhaTap Docs 스크랩하기
+## Docs 스크랩하기
 
 배치 파일을 실행해 콘텐츠를 스크랩합니다.
 
